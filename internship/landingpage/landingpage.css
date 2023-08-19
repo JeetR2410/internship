@@ -1,0 +1,115 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    background-image: url("https://cdn.nogarlicnoonions.com/images/thumbs/image.php?width=2000&height=2000&image=/images/articles/2020-01/travel2020-01-23-01-42-04.jpg");
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+.main{
+    max-width: 327px;
+    margin:auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+ul li a{
+     color: white;
+     text-decoration: none;
+     display: block;
+     padding: 5px;
+     border-radius: 10px 10px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.center_text{
+    margin-top: 250px;
+    margin-left: 530px;
+}
+h1{
+    color: black;
+}
+#bt1{
+    border: 1px solid white;
+    border-radius: 10px 10px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+#bt2{
+    border: 1px solid white;
+    border-radius: 10px 10px;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+}
+#bt1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}
+#bt2:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}
+#bt3{
+    background-color: red;
+    color: white;
+    border-radius: 10px 10px;
+    padding: 5px;
+    text-decoration: none;
+    position: absolute;
+    right: 30;
+    top: 25;
+}
+#bt3:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}
+h2{
+    color: black;
+    position: absolute;
+    top: 37;
+    left: 30;
+}
+.bb3{
+    position: absolute;
+    left: 421;
+    top: 370;
+}
+.picture img{
+    margin-left: 830px;
+    margin-top: 450px;
+    width: 180px;
+    height: 150px;
+    position: absolute;
+    border-radius: 5px 5px;
+    border: 5px solid;
+    color: black;
+}
+.text{
+    color: blanchedalmond;
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
